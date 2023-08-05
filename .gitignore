@@ -1,0 +1,8 @@
+#.gitignore
+*.pyc
+pycache/
+*.sqlite3
+*.env
+*.DS_Store
+*.idea/
+*.vscode/
