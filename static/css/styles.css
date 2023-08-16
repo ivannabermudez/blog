@@ -1,0 +1,42 @@
+
+/* Apply UCSD's blue as the background color for the whole app */
+body {
+    background-color: #003366;
+    color: white; /* Set text color to white for better contrast */
+}
+
+/* Style the navigation links with UCSD's gold color */
+.nav-link {
+    font-size: 18px;
+    color: #FFB600; /* UCSD's gold color */
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #f9f9f9;
+    color: #003366; /* Change text color to blue on hover for better visibility */
+}
+
+/* Style the post list and individual posts with a blue background and white text */
+.post-list, .post-item {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Apply UCSD's gold color to the category labels */
+.post-item .category-label {
+    color: #FFB600;
+}
+
+/* Apply UCSD's gold color to the create post button */
+.create-post-button {
+    background-color: #FFB600;
+    color: #003366;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

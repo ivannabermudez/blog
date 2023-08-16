@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 #object oriented programming
 # models are python classes that manages a underline database table
@@ -11,4 +12,7 @@ class Post(models.Model):   # example of inheritance by extending the models cla
 #models class lives inside the models nodule
 
     def __str__(self):
-        return self.title
+        return self.title 
+
+    def get_absolute_url(self):
+        return reverse("post_detail", args=[self.id])

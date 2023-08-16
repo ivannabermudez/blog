@@ -1,0 +1,18 @@
+
+body {
+    background-image: url('/static/img/ucsd_wallpaper.jpeg'); /* Replace with the path to your UCSD image */
+    background-size: cover;
+    background-position: center top 25px;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    color: #FFB600;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
